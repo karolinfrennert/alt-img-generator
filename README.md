@@ -9,12 +9,6 @@ Därför är målet med detta projekt att utveckla ett AI-baserat verktyg som hj
 
 ## DEFINE - Problemlösning
 
-### FEATURES
-- Samla data och preprocessing av bilder för att säkerställa att de alla har rätt format
-- Modellen tränas (CNN) och alt texter genereras baserat på klassificerade bilder (NLG)
-- Ett användargränssnitt som man kan ladda upp egna bilder (?)
-- Alt-text generering baserat på användarens input (i detta fallet kanske det är jag som lägger till bilder i programmet) 
-
 ### MODELL 
 #### Bildklassificeringsmodell: 
 Vad jag har förstått så är användningen ev ett CNN (Convolutional neural network) ett av de vanligaste sätten som man använder när man vill bygga en bildklassificeringsmodell, så därför tänker jag använda mig av detta för att skapa modellen som klassificerar och analyserar bilder. Jag tänker att detta är ett bra första steg för att se om jag lyckas med en implementation, sedan så krävs det ytterligare steg om jag vill att modellen ska generare själva alt texterna. 
@@ -39,11 +33,17 @@ Datasetet från Flickr8k innehåller bilder med textbeskrivningar. Dessa labels 
 - Normalisering av pixelvärden: Pixelvärdena normaliseras till intervallet [0, 1] för att underlätta modellträningen.
 - Borttagning av brus: Eventuella bilder med låg kvalitet, suddiga motiv eller felaktiga format rensas bort.
 #### Utforskning av datasetet (EDA):
-**För att förstå datasetets struktur och kvalitet kommer jag att undersöka**
 - Datakvalitet: Kontrollera om alla bilder har tillhörande beskrivningar och om det finns några avvikande datapunkter.
 - Datafrekvens: Hur fördelningen av olika kategorier ser ut och om datasetet är tillräckligt balanserat.
 #### Konvertering till numeriskt format:
 - Bilderna konverteras till numeriska format genom vektorisering, vilket möjliggör att de kan bearbetas av maskininlärningsmodellen.
+
+### FEATURES
+- Samla data och preprocessing av bilder för att säkerställa att de alla har rätt format
+- Modellen tränas (CNN) och alt texter genereras baserat på klassificerade bilder (NLG)
+- Ett användargränssnitt som man kan ladda upp egna bilder (?)
+- Alt-text generering baserat på användarens input (i detta fallet kanske det är jag som lägger till bilder i programmet) 
+
 
 
 ## EVALUATE - Utvärdera begränsningar
