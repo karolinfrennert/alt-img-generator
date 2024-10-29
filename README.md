@@ -1,13 +1,15 @@
-# AI-verktyg för att generera alt-texter till bilder
+# 📝 AI-verktyg för att generera alt-texter till bilder 
 
-## EXPLORE - Problemdefinition:
-Överlag så finner jag AI som analyserar bilder väldigt intressant och det är någonting jag skulle vilja lära mig mer om. Jag arbetar som fullstack-utvecklare men med fokus på webben, och just nu så arbetar jag på en tidning och et återkommande problem som jag ser är att många bilder saknar alt-texter. En alt-text är en kort beskrivning av vad bilden föreställer och används av exempelvis skärmläsare för att ge personer med synnedsättning möjlighet att förstå bildens innehåll. Genom att inkludera alt-texter gör vi webben mer inkluderande och tillgänglig för alla, oavsett förmåga att se bilderna direkt.
+## 🧭 EXPLORE - Problemdefinition:
+*Överlag så finner jag AI som analyserar bilder väldigt intressant och det är någonting jag skulle vilja lära mig mer om.*
+
+Jag arbetar som fullstack-utvecklare men med fokus på webben, och just nu så arbetar jag på en tidning och et återkommande problem som jag ser är att många bilder saknar alt-texter. En alt-text är en kort beskrivning av vad bilden föreställer och används av exempelvis skärmläsare för att ge personer med synnedsättning möjlighet att förstå bildens innehåll. Genom att inkludera alt-texter gör vi webben mer inkluderande och tillgänglig för alla, oavsett förmåga att se bilderna direkt.
 
 Bilder är ett kraftfullt verktyg för att förmedla nyheter, och därför är alt-texter avgörande för att säkerställa att även de som använder skärmläsare får en komplett upplevelse och förståelse av nyhetsinnehållet. Alt-texter förbättrar inte bara tillgängligheten, utan också webbplatsernas SEO. Tyvärr är det vanligt att alt-texter saknas eller inte håller den kvalitet som krävs för att ge en korrekt beskrivning av bilden, särskilt i medie- och nyhetsbranschen, och detta är någonting som jag tänker att jag kan förbättra med mitt projekt. 
 
 Därför är målet med detta projekt att utveckla ett AI-baserat verktyg som hjälper journalister och innehållsskapare att snabbt generera förslag på alt-texter. Genom att använda detta verktyg kan redaktionen enkelt skapa korrekta alt-texter som både sparar tid och förbättrar tillgängligheten på webbsidorna, samtidigt som det säkerställer att tillgänglighetsstandarderna följs.
 
-## DEFINE - Problemlösning
+## 👩🏼‍🏭 DEFINE - Problemlösning:
 
 ### MODELL 
 #### Bildklassificeringsmodell: 
@@ -46,7 +48,7 @@ Datasetet från Flickr8k innehåller bilder med textbeskrivningar. Dessa labels 
 
 
 
-## EVALUATE - Utvärdera begränsningar
+## 🤔 EVALUATE - Utvärdera begränsningar:
 Jag tror att projektet ska vara implementerbart, men det är också därför jag funderar på att dela upp det i två steg för att se hur mycket tid det krävs. Jag kommer att testa mig fram ocg förhoppningsvis så kommer jag att kunna skapa en första implementation av en modell som klassificerar bilder som sedan får genererade bildbeskrivningar. 
 
 ### BEGRÄNSNINGAR
@@ -55,8 +57,8 @@ Jag tror att projektet ska vara implementerbart, men det är också därför jag
 - Datakvalitet och datamängd
 - Kvalitet på bildbeskrivningarna, det kan vara svårt att generera beskrivningar som är både korrekta och naturliga.
 
-## IMPLEMENT & ITERATE
-Dett ska jag börja med och aktivt arbeta med 🤠
+## 🤠 IMPLEMENT & ITERATE:
+Dett ska jag börja med och aktivt arbeta med!
 
 
 
